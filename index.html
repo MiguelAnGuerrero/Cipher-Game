@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>!Light</title>
+    <style>
+    .title 
+      {
+        text-align: center;
+        color: #62a1ff;
+        font-family:'Courier New', Courier, monospace;
+      }
+
+      .centered
+      {
+        color: #000000;
+          text-align: center;
+          padding-top:225px
+          
+      }
+
+      .button-container
+      {
+          display:inline-flex;
+          margin: 10px;
+          padding: 5px;
+          font-family:'Courier New', Courier, monospace;
+      }
+
+      #btn
+      {
+          border: 2px #bababa solid;
+          text-decoration: none;
+          margin-left: 10px;
+          margin-right: 10px;
+          padding-left: 10px;
+          padding-right: 10px;
+          background-color: #bababa;
+          color: #555555;
+      }
+    </style>
+  </head>
+  <body>
+        <div class="title">
+           <h2> Super Spy Declassifed Cipher Guide: Best Edition </h2>
+        </div>
+        </br>
+        <p>
+
+        <h3>Caesar Shift Cipher</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Caesar_cipher_left_shift_of_3.svg/1920px-Caesar_cipher_left_shift_of_3.svg.png" alt="Ceaser Shift">
+        The Caesar Shift was invented by Julius Caesar to send encrypted messages to his troops. The basic idea of the cipher is to shift the alphabet by a chosen number and then map the new shifted alphabet to the original order. So for example the table below uses a shift of 3 and the letter ‘a’ would map to ‘D’, the letter ‘b’ will map to ‘E’, the letter ‘c’ will map to ‘F’, and so on.
+
+        Decoding this cipher simply requires the decoder to match the ciphertext letters to the plaintext letters, as shown in the table above.
+
+<h3>Morse Code</h3>
+
+The dot duration is the basic unit of time measurement in Morse code transmission. The duration of a dash is three times the duration of a dot. Each dot or dash within a character is followed by period of signal absence, called a space, equal to the dot duration. The letters of a word are separated by a space of duration equal to three dots, and the words are separated by a space equal to seven dots.
+Morse code is usually transmitted using electric current, radio wave, light, or sound on-off keying. The current or wave is present during the time period of a dot or dash and then absent in between the dots and dashes.
+Morse code has the advantage of being able to be used by a variety of mediums such as light, sound, or pictures/words.
+
+<h3>Numerical Substitution</h3>
+A number substitution is a simple substitution cipher. Each letter in the alphabet is the represented by a number, as shown in the table above. To decode this cipher simply match each number with the appropriate letter.
+        </br>
+A = 97
+B = 98
+C = 99
+D = 100
+E = 101
+F = 102
+G = 103
+H = 104
+I = 105
+J = 106
+K = 107
+L = 108
+M = 109
+N = 110
+O = 111
+P = 112
+Q = 113
+R = 114
+S = 115
+T = 116
+U = 117
+V = 118
+W = 119
+X = 120
+Y = 121
+Z = 122
+    </br>
+
+**As a note: the numerical values used are the ASCII values of the uppercase letters. ASCII stands for American Standard for Code Information Innerchange.
+
+<h3>Vigenere Cipher</h3>
+
+
+The Vigenere cipher uses a series of interwoven Caesar ciphers making the Vigenere cipher more difficult to break. Although the cipher is easy to understand and implement it is difficult to break unless the decoder knows this cipher is being used. In fact the cipher was first described in 1553, but wasn’t officially broken until 1863.
+
+
+
+To decrypt Vigenere with a double entry square table, use the following grid (case alphabet is ABCDEFGHIJKLMNOPQRSTUVWXYZ):
+
+Example: To decrypt NGMNI, the key is KEY.
+1) Locates the first letter of the key in the left column, and locates on the row the first letter of the ciphered message. Then go up in the column to read the first letter, it is the corresponding plain letter.
+2) Locate the letter K on the first column, and on the row of it, find the cell of the letter N, the name of its column is D, it is the first letter of the plain message.
+3) Continue with the next letters of the message and the next letters of the key, when arrived at the end of the key, go back the the first key of the key.
+Example: The original plain text is DCODE.
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Vigenère_square_shading.svg/1920px-Vigenère_square_shading.svg.png" alt="Vigenere Shift">
+
+
+    </p>
+  </body>
+  <footer style="background: #bababa;">
+    
+  </footer>
+</html>
